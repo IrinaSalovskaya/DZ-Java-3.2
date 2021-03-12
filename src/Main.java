@@ -4,9 +4,9 @@ public class Main {
         int refill = 2000;
         int bonus = refill / 100;
         int limit = 1000;
-        int  amount = balance+bonus +refill;
+        int  amount = balance + bonus + refill;
         if (refill >= limit) {
-            bonus = refill / 100;
+
         }
         else {
             bonus = 0;
